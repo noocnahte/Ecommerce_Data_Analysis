@@ -12,6 +12,14 @@ In order to get the Amazon product data, I used the "Amazon Products" API from t
 The data was stored in three tables, "product", "customer", and "customer_order". The customer_order had its own primary key, "order_id", and the table linked the two others on their respective primary keys, "asin" and "customer_id".
 
 ## Notebooks
+Data Collection: https://github.com/noocnahte/Ecommerce_Data_Analysis/blob/main/data_collection.ipynb
+  In this Notebook, I queried the API for Amazon product data, read consumer data from a csv, generated mock sales data, then entered all this information into a relational database hosted on RDS.
+  
+SQL Analysis: https://github.com/noocnahte/Ecommerce_Data_Analysis/blob/main/sql_analysis.ipynb
+  I first ran five exploratory queries to learn more about my dataset, and using my findings, determined a question I wanted to answer and develop with three more queries.
+  
+Presentation: https://github.com/noocnahte/Ecommerce_Data_Analysis/blob/main/presentation.ipynb
+  The final product. Collection + Analysis in one place. 
 
 ## Future Improvements
 1. I think that having real order and category data would help the project a lot. I ran out of API requests before I could get the category of each product, so I ended up assigning a category randomly to each product and not using this information very much in my analysis. Order data is usually not something that is openly available to the public, so I don't know if I could acquire it- however, this information would allow me to get REAL insight from the data that could be used to make legitimate suggestions grounded in facts.
