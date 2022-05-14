@@ -5,7 +5,7 @@ In order to solve this, I have looked into three types of Amazon items- Prime, S
 
 ### Job Description:
 The job description I chose was "Data Analyst- Inventory Deployment" at Nordstrom. The description states that analysts are to "mine complex financial data and transform it into actionable information," as well as to "apply common statistical methods, data modeling, and predictive analysis to answer strategic questions for the online business." The job primarily works with financial data, focusing on the e-commerce aspect of Nordstrom's business.
-I chose to complete my project using Amazon product data, and generated sales based on the review counts of different items. This relates to the job posting because it is E-commerce sales data, and while Amazon has different offeringss than Nordstrom would (Amazon Choice and Prime), the same analysis could be run to determine the effectiveness of Nordstrom offerings if I had the right data.
+I chose to complete my project using Amazon product data, and generated sales based on the review counts of different items. This relates to the job posting because it is E-commerce sales data, and while Amazon has different offerings than Nordstrom would (Amazon Choice and Prime), the same analysis could be run to determine the effectiveness of Nordstrom offerings if I had the right data.
 
 ## Data
 In order to get the Amazon product data, I used the "Amazon Products" API from the RapidAPI website to grab the name, ASIN, price, promotions, etc. of hundreds of Amazon products. Then, I found a public dataset of consumer information from Kaggle and randomly generated 20,000 orders, with the likelihood of a product being ordered being proportional to the number of reviews on its Amazon page.
