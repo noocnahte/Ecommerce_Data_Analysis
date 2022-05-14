@@ -13,12 +13,15 @@ The data was stored in three tables, "product", "customer", and "customer_order"
 
 ## Notebooks
 Data Collection: https://github.com/noocnahte/Ecommerce_Data_Analysis/blob/main/data_collection.ipynb
+  
   In this Notebook, I queried the API for Amazon product data, read consumer data from a csv, generated mock sales data, then entered all this information into a relational database hosted on RDS.
   
 SQL Analysis: https://github.com/noocnahte/Ecommerce_Data_Analysis/blob/main/sql_analysis.ipynb
+  
   I first ran five exploratory queries to learn more about my dataset, and using my findings, determined a question I wanted to answer and develop with three more queries.
   
 Presentation: https://github.com/noocnahte/Ecommerce_Data_Analysis/blob/main/presentation.ipynb
+  
   The final product. Collection + Analysis in one place. 
 
 ## Future Improvements
